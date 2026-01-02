@@ -8,7 +8,7 @@ Last Updated: January 2026
 
 This document contains relevant third-party software notices and/or additional terms and conditions for informational purposes.
 
-1. COMPONENTS LICENSED UNDER THE MIT LICENSE
+# 1. COMPONENTS LICENSED UNDER THE MIT LICENSE
 The following components are licensed under the MIT License (see below for the license):
 
 Microsoft Corporation
@@ -454,3 +454,4 @@ The following icons are used in this application under the Flaticon Free License
 	- Trending up icon by TravisAvery from https://www.flaticon.com/
 
 For the full terms of the Flaticon Free License, please visit: https://www.flaticon.com/terms-of-use
+
