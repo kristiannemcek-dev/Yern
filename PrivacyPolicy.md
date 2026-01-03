@@ -7,7 +7,10 @@ Effective date: January 3, 2026
 We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of this policy. We encourage you to review this Privacy Policy regularly to stay informed about our information practices and the choices available to you. 
 
 ### 1. Data We Access and Process
-Yern runs a background process on your device to access the following information.
+
+To ensure privacy and accuracy, Yern uses a visibility threshold (**"visibility threshold"**) of 75%. This means an application is only considered "active" and subject to data recording if at least 75% of its window area is visible and not obscured by other windows on your screen. This threshold allows the app to distinguish between software you are actively using and software simply running in the background. This visibility threshold is checked for all window instances currently running on your system.
+
+Yern runs a background process on your device to access the following information. 
 
 **System Activity Data:** Yern automatically calculates and processes the total duration of your active computer session.
 - **What is measured:** The time elapsed between login, or device unlock, and logout, system shutdown, or device lock.
@@ -15,19 +18,19 @@ Yern runs a background process on your device to access the following informatio
 - **Storage:** This information is only stored in your local database. 
 
 **App Focus Duration:** Yern automatically calculates the duration of your active interaction with other applications. 
-- **What is measured:** The time elapsed between an application window becoming **at least 75% visible** (at least 75% of the window's area is visible) and when it is **minimized, closed, or obscured** by another window.
+- **What is measured:** The time elapsed between an application window exceeding the visibility threshold and when it is **minimized, closed, or obscured** by another window.
 - **Purpose:** This information is used to provide you with insights into your application usage.
 - **Storage:** This information is only stored in your local database. 
 
 **Names of Applications:** The names of all applications currently maintaining an active window instance on your system, regardless of their visibility or focus.
 - **Purpose:** To identify which applications are available for tracking and to determine their visibility status relative to your screen.
-- **Storage:** Yern only records the name of an application into your local database if it meets the 75% visibility threshold. Names of applications that are minimized, backgrounded, or obscured below this threshold are processed in temporary memory only and are not saved to your disk.
+- **Storage:** Yern only records the name of an application into your local database if it meets the visibility threshold. Names of applications that are minimized, backgrounded, or obscured below the visibility threshold are processed in temporary memory only and are not saved to your disk.
 
-**Logos of Applications:** Yern automatically collects a logo of an application if it meets the 75% visibility threshold.
-- **Storage:** Logos of applications that are minimized, backgrounded, or obscured below this threshold are not saved to your disk.
+**Logos of Applications:** Yern automatically collects a logo of an application if it meets the visibility threshold.
+- **Storage:** Logos of applications that are minimized, backgrounded, or obscured below the visibility threshold are not saved to your disk.
 
-**Application File Paths:** Yern accesses the file system path of active applications to identify the software and extract its associated icon. 
-- **Storage:** Yern only records file paths to an already collected icons so it can be used by the Yern application. 
+**Icon File Paths:** Yern accesses the file system path of active applications to identify the software and extract its associated icon. 
+- **Storage:** Yern does not store file paths of active applications. Yern only records file paths to an already collected icons so it can be used by the Yern application. The file path to an icon is securely stored in the local database.  
 - **Personal Information Note:** File paths may contain your Windows Username. 
   
 Any other information not mentioned above is not being collected by Yern. 
@@ -47,7 +50,7 @@ The above mentioned data are stored locally. The data we collect are:
 - Never uploaded to the cloud
 - Never shared with the publisher or any third party
 
-All of the above data mentioned, except of **"Logos of Applications"**, are stored in a database. **"Logos of Applications"** are stored in a separate folder that is fully accessible. 
+All of the above data mentioned, except for **"Logos of Applications"**, is stored in a database. **"Logos of Applications"** are stored in a separate folder that is fully accessible. 
 
 **Database Location:** Some of the data (see above for which) is stored in a local database file named **"DeviceData.db".** This file is located in your system's Local AppData folder within the following path:
   
@@ -62,7 +65,7 @@ All of the above data mentioned, except of **"Logos of Applications"**, are stor
 ### 3. Data Deletion and Retention
 Because Yern is a local-only application, you have full control over your data retention:
 
-**Retention after Uninstallation:** To prevent accidental data loss, uninstalling Yern does not automatically delete neither your local database (UserData.db) and icons stored. This allows you to retain your history if you choose to reinstall the application in the future.
+**Retention after Uninstallation:** To prevent accidental data loss, uninstalling Yern does not automatically delete either your local database (DeviceData.db) or icons stored. This allows you to retain your history if you choose to reinstall the application in the future.
 
 **Manual Deletion:** If you wish to permanently remove all data from your computer, you must manually delete the following folder:
 
@@ -71,16 +74,16 @@ Because Yern is a local-only application, you have full control over your data r
 ### 4. Data Sharing
 Yern does not share any data with any third parties.
 
+Yern does not include any third-party analytics or tracking SDKs that transmit data.
+
 Because all data remains on your device, no data is sold, transferred, or disclosed to external entities.
 
-### 5. Legal Basis for Processing (GDPR)
-Under the General Data Protection Regulation (GDPR), Yern processes data based on:
+### 5. Your Privacy Rights (GDPR, CCPA, and Others)
+Regardless of your location, we provide the same high standard of privacy rights to all users. Because your data is stored locally, you can exercise these rights directly: **Right to Access:** You can view all data collected by Yern directly within the application's interface. **Right to Portability:** You can manually copy the encrypted "DeviceData.db" file if you wish to move your data to another device. **Right to Erasure (Right to be Forgotten):** You can delete your data at any time by manually deleting the folder at location:
 
-- User consent, by choosing to install and use the App
+    %LocalAppData%\Yern
 
-- Legitimate interest, as the data processing is strictly necessary to provide the App’s functionality
-
-- Because data never leaves your device, no international data transfers occur.
+**Right to Object/Restrict Processing:** You can stop all data collection by closing the Yern background process or uninstalling the app. 
 
 ### 6. Future Features
 Future versions of Yern may introduce optional features such as cloud synchronization. 
