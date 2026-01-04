@@ -221,7 +221,10 @@ Packages:
 - SQLitePCLRaw.bundle_e_sqlite3 
 - SQLitePCLRaw.core 
 - SQLitePCLRaw.lib.e_sqlite3 
-- SQLitePCLRaw.provider.e_sqlite3 
+- SQLitePCLRaw.provider.e_sqlite3
+- SQLitePCLRaw.bundle_e_sqlcipher
+- SQLitePCLRaw.lib.e_sqlcipher
+- SQLitePCLRaw.provider.e_sqlcipher
 
 Native Binaries:
 - e_sqlite3.dll
@@ -533,3 +536,4 @@ The following icons are used in this application under the Flaticon Free License
 For the full terms of the Flaticon Free License, please visit: https://www.flaticon.com/terms-of-use
 
 ---
+
