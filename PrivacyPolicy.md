@@ -36,7 +36,7 @@ Yern runs a background process on your device to access the following informatio
 Any other information not mentioned above is not being collected by Yern. 
 
 ### 2. Where And How The Data Is Stored
-Yern stores only the minimum data necessary to provide its core functionality. 
+Yern collects data to provide its core functionality. All tracking data is stored locally on your device. We do not have access to your screen time, app usage, or personal activity.
 
 The following data is stored:
 - **System Activity Data**
@@ -62,6 +62,8 @@ All of the above data mentioned, except for **"Logos of Applications"**, is stor
 
     %LocalAppData%\Yern\Icons
 
+**Data History:** The database contains data since installation of Yern.  
+
 ### 3. Data Deletion and Retention
 Because Yern is a local-only application, you have full control over your data retention:
 
@@ -71,23 +73,28 @@ Because Yern is a local-only application, you have full control over your data r
 
     %LocalAppData%\Yern
 
-### 4. Data Sharing
+### 4. Children's Privacy
+Because Yern is rated 3+, we are committed to the safety of young users. We do not knowingly collect, store, or share any personal information from children. If you are a parent or guardian and believe your child has provided us with personal data, please contact us so we can delete it.
+
+Yern has been rated 3+ by the IARC. This means our content contains no violence, frightening elements, or inappropriate language.
+
+### 5. Data Sharing
 Yern does not share any data with any third parties.
 
 Yern does not include any third-party analytics or tracking SDKs that transmit data.
 
 Because all data remains on your device, no data is sold, transferred, or disclosed to external entities.
 
-### 5. Your Privacy Rights (GDPR, CCPA, and Others)
+### 6. Your Privacy Rights (GDPR, CCPA, and Others)
 Regardless of your location, we provide the same high standard of privacy rights to all users. Because your data is stored locally, you can exercise these rights directly: **Right to Access:** You can view all data collected by Yern directly within the application's interface. **Right to Portability:** You can manually copy the encrypted "DeviceData.db" file if you wish to move your data to another device. **Right to Erasure (Right to be Forgotten):** You can delete your data at any time by manually deleting the folder at location:
 
     %LocalAppData%\Yern
 
 **Right to Object/Restrict Processing:** You can stop all data collection by closing the Yern background process or uninstalling the app. 
 
-### 6. Future Features
+### 7. Future Features
 Future versions of Yern may introduce optional features such as cloud synchronization. 
 If such features are added, this Privacy Policy will be updated before those features are enabled.
 
-### 7. Contact Information
+### 8. Contact Information
 If you have any questions or concerns about this Privacy Policy or the data practices of Yern, please contact Kristián Nemček at: kristiannemcek.dev@gmail.com.
