@@ -54,24 +54,24 @@ All of the above data mentioned, except for **"Logos of Applications"**, is stor
 
 **Database Location:** Some of the data (see above for which) is stored in a local database file named **"DeviceData.db".** This file is located in your system's Local AppData folder within the following path:
   
-    %LocalAppData%\Yern\Database\DeviceData.db
+    %LOCALAPPDATA%\Packages\[Your_Package_Identity]\LocalCache\Local\Yern\Database\DeviceData.db
     
 **Database Security:** The local database is fully encrypted and requires a secure key for access. This ensures that your usage data is protected from unauthorized access by other users or software on your computer.
 
 **Icons Location:** The icons are stored in a local folder named **"Icons"**. This folder is located in your system's Local AppData folder within the following path:
 
-    %LocalAppData%\Yern\Icons
+    %LOCALAPPDATA%\Packages\[Your_Package_Identity]\LocalCache\Local\Yern\Icons
 
 **Data History:** The database contains data since installation of Yern.  
 
 ### 3. Data Deletion and Retention
 Because Yern is a local-only application, you have full control over your data retention:
 
-**Retention after Uninstallation:** To prevent accidental data loss, uninstalling Yern does not automatically delete either your local database (DeviceData.db) or icons stored. This allows you to retain your history if you choose to reinstall the application in the future.
+**Retention after Uninstallation:** All stored data is deleted on application uninstall. 
 
 **Manual Deletion:** If you wish to permanently remove all data from your computer, you must manually delete the following folder:
 
-    %LocalAppData%\Yern
+    %LOCALAPPDATA%\Packages\[Your_Package_Identity]\LocalCache\Local\Yern
 
 ### 4. Children's Privacy
 Because Yern is rated 3+, we are committed to the safety of young users. We do not knowingly collect, store, or share any personal information from children. If you are a parent or guardian and believe your child has provided us with personal data, please contact us so we can delete it.
@@ -88,7 +88,7 @@ Because all data remains on your device, no data is sold, transferred, or disclo
 ### 6. Your Privacy Rights (GDPR, CCPA, and Others)
 Regardless of your location, we provide the same high standard of privacy rights to all users. Because your data is stored locally, you can exercise these rights directly: **Right to Access:** You can view all data collected by Yern directly within the application's interface. **Right to Portability:** You can manually copy the encrypted "DeviceData.db" file if you wish to move your data to another device. **Right to Erasure (Right to be Forgotten):** You can delete your data at any time by manually deleting the folder at location:
 
-    %LocalAppData%\Yern
+    %LOCALAPPDATA%\Packages\[Your_Package_Identity]\LocalCache\Local\Yern
 
 **Right to Object/Restrict Processing:** You can stop all data collection by closing the Yern background process or uninstalling the app. 
 
